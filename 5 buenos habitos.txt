@@ -1,0 +1,35 @@
+5 Buenas prácticas de HTML:
+
+1. Declara el DOCTYPE
+
+2. Cierra Tus Etiquetas
+
+3. Utiliza Etiquetas en Minúsculas
+
+4. Incluye Siempre Atributos ALT
+
+5. Mantén una Indentación Consistente:
+
+5 Buenas prácticas de PHP:
+
+1. Activa los informes de errores
+
+2. Prueba un IDE
+
+3. Aprender el Enfoque DRY
+
+4.Utiliza siempre <?php ?>
+
+5.Comentar, Comentar, Comentar
+
+5 Buenas prácticas de CSS:
+
+1. Organizar la Hoja de Estilos
+
+2.Utilizar la Abreviatura CSS
+
+3. Combina los Elementos Cuando sea Posible
+
+4. Utiliza Libremente los Saltos de Línea
+
+5. Añade Varias Clases a tus Elementos
