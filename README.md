@@ -4,7 +4,7 @@ Esta  es guía muestra en cómo usar la sintaxis básica de Markdown para docume
 
 # Encabezados
 
-Los encabezados se crean usando el símbolo #. El número de # indica el nivel del encabezado (de 1 a 6).
+Los encabezados se crean usando el símbolo #. El número de # indica el nivel del encabezado (del 1 al 6).
 
 
 # Encabezado 1
