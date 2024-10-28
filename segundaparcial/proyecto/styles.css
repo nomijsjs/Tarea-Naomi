@@ -1,0 +1,260 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('backgrounds/Fondo1.png'); /* Fondo con imagen */
+    background-size: cover; /* Ajusta la imagen al tamaño del navegador */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija el fondo para que no se mueva al hacer scroll */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que el contenido ocupe todo el alto de la ventana */
+    margin: 0; /* Elimina los márgenes del cuerpo */
+}
+
+/* Estilos para el formulario de inicio y registro */
+.login-container, .register-container {
+    background-color: #adc9d6; /* Fondo azul pastel */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #000000; /* Gris suave */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #0b0035; /* Gris oscuro */
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #a6c8e5; /* Azul pastel */
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #6ab7ff; /* Azul pastel */
+    color: rgb(159, 255, 234);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #c09cfc; /* Azul más intenso */
+}
+
+.error {
+    color: #ff6b6b; /* Rojo suave */
+    text-align: center;
+}
+
+.avatar-preview {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Estilos del contenedor principal */
+.dashboard-container {
+    width: 80%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+    background-color: rgba(203, 231, 255, 0.9); /* Azul muy suave */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de las fichas */
+.card {
+    width: 100%;
+    background-color: #dfc0fd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    color: #666;
+}
+
+/* Botón en cada ficha */
+.card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: rgba(140, 141, 223, 0.993);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #0056b3;
+}
+
+/* Ajustes para dispositivos pequeños */
+@media (max-width: 600px) {
+    .dashboard-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Estilos generales para contenedores de contenido */
+.dashboard-main, .create-character-container, .characters-list-container, .character-details-container, .leaderboard-container {
+    background-color: rgba(157, 207, 219, 0.9); /* Azul muy suave */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.character-details-container img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #c7e7f5; /* Azul claro */
+    color: rgba(203, 153, 207, 0.884);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #91d3ff; /* Azul más claro */
+}
+
+form {
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: rgba(235, 246, 255, 0.8); /* Fondo azul pastel para la lista */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el contenedor de la tabla de clasificaciones */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #a6c8e5; /* Azul pastel */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #b3d9ff; /* Azul pastel */
+    color: #4d4d4d; /* Gris oscuro */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d1e7ff; /* Azul muy claro */
+}
+.tournament-card {
+    background-color: #bea7d8;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tournament-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tournament-card h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.tournament-card p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(102, 219, 213);
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-join {
+    background-color: #4CAF50; /* Verde para unirse */
+}
+
+.btn-join:hover {
+    background-color: #45a049;
+}
+
+.btn-ranking {
+    background-color: #007BFF; /* Azul para ver ranking */
+}
+
+.btn-ranking:hover {
+    background-color: #0056b3;
+}
