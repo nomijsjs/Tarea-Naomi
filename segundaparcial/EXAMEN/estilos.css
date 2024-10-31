@@ -1,0 +1,234 @@
+body{
+    background-color: #9d88b3; 
+    background-image: url('Fondos/Fondo2.png');
+    background-size: cover; /* Ajusta la imagen al tamaño del navegador */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija el fondo para que no se mueva al hacer scroll */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que el contenido ocupe todo el alto de la ventana */
+    margin: 0; /* Elimina los márgenes del cuerpo */ 
+}
+.inicio_sesion{
+    background-color: rgba(185, 83, 141, 0.466);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 60%;
+
+
+}
+.titulopap{
+    
+    font-family: Ponari;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10%;
+}
+.textab{
+    font-family: Power Smurf;
+    font-size: 30px;
+    text-align: center;
+}
+
+button{
+    
+    margin-top: 5%;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(120, 51, 106);
+    font-family: Keys of Paradise;
+    color: #c5c1ca;
+    
+}
+.registro{
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+    justify-items: center;
+    background-color: rgba(255, 228, 196, 0.327);
+    
+}
+.resgistro-tit{
+    font-family: Poozie;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+label{
+    font-family: CHICKEN Pie;
+    color:#b92a80;
+    font-size: 25px;
+}
+select{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(57, 55, 106);
+    font-family:CHICKEN Pie;
+    color: #c5c1ca;
+}
+p{
+    font-family:  michael;
+    color:#322341;
+    font-size: 25px;
+}
+.gestion-admin{
+    background-color: rgba(110, 117, 196, 0.466);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 60%;
+
+}
+.product-list {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+.product {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 3px solid #143b18;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+}
+.tit-lista{
+    font-family: Cute Notes;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.lista-productos{
+    background-color: rgba(110, 167, 196, 0.466);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 65%;
+}
+.eliminar{
+    margin-top: 5%;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(74, 63, 106);
+    font-family: Hug Me Tight;
+    color: #c5c1ca;
+    
+}
+.agregar,.regresar{
+    margin-top: 5%;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(95, 63, 106);
+    font-family: CHICKEN Pie;
+    color: #c5c1cac6;
+    
+}
+.newProduct{
+    font-size: 20px;
+    font-family: michael;
+    color: #230b1e;
+}
+.lista-usuarios{
+    background-color: rgba(97, 125, 235, 0.388);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 65%;
+}
+.usuarios-list {
+    margin-top: 20px;
+    font-family: michael;
+}
+.usuario {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 3px solid #6c3041;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+}
+.tit-usuarios{
+    font-family: Waltograph UI;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.newUsuario{
+    font-size: 20px;
+    font-family: michael;
+    color: #230b1e;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.agregarProducto {
+    padding: 5px 10px;
+    cursor: pointer;
+    
+    margin-top: 5%;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(93, 113, 95);
+    font-family: CHICKEN Pie;
+    color: #c5c1cac6;
+}
+.tit-producto{
+    font-family: Keys of Paradise;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.producto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+.catalogo-con{
+    background-color: rgba(174, 117, 145, 0.451);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 65%;
+}
+.creado{
+    margin-top: 20%;
+    background-color: rgba(126, 88, 106, 0.451);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(81, 80, 80, 0.1);
+    width: 65%;
+    text-align: center;
+    font-family: Keys of Paradise;
+}
+.nombres{
+    font-size: 20px;
+    font-family: michael;
+    color: #230b1e;
+}
