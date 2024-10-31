@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Registro </title>
+</head>
+<body>
+    <div class="registro">
+        <div class="resgistro-tit">Registrarse</div>
+      
+            <label for="name">Nombre:</label> 
+            <input type="text" id="name" name="name" required> <br><br>
+
+            <label for="email">Correo Electronico:</label> 
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label> 
+            <input type="password" id="password" name="password" required><br><br>
+
+
+            <label for="tipo">Usuario Tipo:</label> 
+            <select id="tipo" name="tipo">
+                <option value="Admin">Administrador</option>
+                <option value="Vendedor">Vendedor</option>
+            </select> <br><br>
+           
+            <button type="submit" name="register">Registrarse</button>
+        </form>
+        <p>¿Ya tienes una cuenta? <a href="index.html">Inicia sesion aqui</a></p>
+    </div>
+</body>
+</html>
